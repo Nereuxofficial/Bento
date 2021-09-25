@@ -10,23 +10,30 @@ const CONFIG = {
 	// ├┴┐├─┤└─┐││  └─┐
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
-	// General
-	name: 'John',
-	imageBackground: false,
-	openInNewTab: true,
-	twelveHourFormat: false,
+  // General
+  name: 'Benedikt',
+  imageBackground: false,
+  openInNewTab: true,
+  twelveHourFormat: false,
+	
+	//Layout
+	bentoLayout: 'bento',
 
-	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+  // Greetings
+  greetingMorning: 'Good morning,',
+  greetingAfternoon: 'Good afternoon,',
+  greetingEvening: 'Good evening,',
+  greetingNight: 'Good night',
 
-	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+
+  // Weather
+  weatherKey: '40e125564e6b230710f495fd67261ed3',
+  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherUnit: 'C', // 'F', 'C'
+  language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '40e125564e6b230710f495fd67261ed3', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -61,7 +68,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.tutanota.de/',
 		},
 		{
 			id: '3',
@@ -217,8 +224,8 @@ const CONFIG = {
 					link: 'https://www.reddit.com/r/rust/',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'de',
+					link: 'https://www.reddit.com/r/de/',
 				},
 				{
 					name: 'Repos',
@@ -227,4 +234,44 @@ const CONFIG = {
 			],
 		},
 	],
+
+	// Links
+  lists: {
+    firstList: [
+      {
+        name: 'Inspirational',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      },
+      {
+        name: 'Classic',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      },
+      {
+        name: 'Oldies',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      },
+      {
+        name: 'Rock',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+      },
+    ],
+    secondList: [
+      {
+        name: 'Linkedin',
+        link: 'https://linkedin.com/',
+      },
+      {
+        name: 'Figma',
+        link: 'https://figma.com/',
+      },
+      {
+        name: 'Dribbble',
+        link: 'https://dribbble.com',
+      },
+      {
+        name: 'Whatsapp',
+        link: 'https://web.whatsapp.com/',
+      },
+    ],
+  },
 };
