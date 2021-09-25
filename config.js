@@ -59,9 +59,9 @@ const CONFIG = {
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Lichess',
+      icon: 'play-circle',
+      link: 'https://lichess.org/',
     },
     {
       id: '5',
