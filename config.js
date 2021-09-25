@@ -45,6 +45,7 @@ const CONFIG = {
 	// Autochange
 	autoChangeTheme: true,
 
+
 	// Autochange by OS
 	changeThemeByOS: true,
 
