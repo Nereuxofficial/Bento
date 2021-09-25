@@ -44,7 +44,45 @@ const CONFIG = {
 
 	// Autochange
 	autoChangeTheme: true,
-
+  // Links
+  cards: [
+    {
+      id: '1',
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com/',
+    },
+    {
+      id: '2',
+      name: 'Spotify',
+      icon: 'music',
+      link: 'https://open.spotify.com/',
+    },
+    {
+      id: '3',
+      name: 'Mail',
+      icon: 'mail',
+      link: 'https://mail.tutanota.com/',
+    },
+    {
+      id: '4',
+      name: 'Lichess',
+      icon: 'play-circle',
+      link: 'https://lichess.org/',
+    },
+    {
+      id: '5',
+      name: 'Reddit',
+      icon: 'bookmark',
+      link: 'https://reddit.com',
+    },
+    {
+      id: '6',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com/',
+    },
+  ],
 
 	// Autochange by OS
 	changeThemeByOS: true,
