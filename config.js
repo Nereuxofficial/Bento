@@ -107,7 +107,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.tutanota.de/',
+			link: 'https://mail.tutanota.com/',
 		},
 		{
 			id: '3',
@@ -119,7 +119,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://cloud.bene.photos/apps/calendar/',
 		},
 		{
 			id: '5',
@@ -131,7 +131,7 @@ const CONFIG = {
 			id: '6',
 			name: 'Odysee',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -144,9 +144,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'mastodon',
+			icon: 'mastodon',
+			link: 'https://phanpy.social/',
 		},
 		{
 			id: '3',
@@ -158,7 +158,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://amazon.de/',
 		},
 		{
 			id: '5',
