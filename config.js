@@ -62,7 +62,7 @@ const CONFIG = {
       id: '3',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.tutanota.com/',
+      link: 'https://app.tuta.com/',
     },
     {
       id: '4',
